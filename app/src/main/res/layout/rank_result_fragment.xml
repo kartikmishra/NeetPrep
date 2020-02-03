@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/cancel"
+        android:src="@drawable/ic_cancel"
+        android:layout_margin="16dp"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="YOUR PREDICTED RANK RANGE IS"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="1506 - 2789"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="YOU HAVE TO IMPROVE IN"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="MATHEMATICS &amp; CHEMISTRY"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="32dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="WANT TO IMPROVE YOUR RANK?"
+        android:layout_marginTop="72dp"/>
+
+
+    <Button
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:background="@drawable/bg_button"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="CLICK HERE"
+        android:layout_marginTop="16sp"/>
+
+</LinearLayout>
